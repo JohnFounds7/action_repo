@@ -36,7 +36,7 @@ jobs:
     - name: Publish to Sharepoint
       uses: obrassard/action-sharepoint-publish@v1.1.1
       with:
-       site_url: 'https://you.sharepoint.com/sites/mySite'
-       library_folder: 'Shared documents/releases'
+       site_url: 'https://avivesolutions.sharepoint.com'
+       library_folder: 'Documents/Departments/R&D/Firmware/Johns Work'
        sharepoint_client_id: ${{ secrets.CLIENTID }}
        sharepoint_client_secret: ${{ secrets.CLIENTSECRET }}
