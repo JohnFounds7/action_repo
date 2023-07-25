@@ -38,5 +38,5 @@ jobs:
       with:
        site_url: 'https://avivesolutions.sharepoint.com'
        library_folder: 'Documents/Departments/R&D/Firmware/Johns Work'
-       sharepoint_user: 'jfounds@avive.life'
-       sharepoint_password: '4488Sp@rus'
+       sharepoint_user: ${{ secrets.USER }}
+       sharepoint_password: ${{ secrets.PASSWORD }}
